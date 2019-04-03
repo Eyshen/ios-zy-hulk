@@ -1,0 +1,14 @@
+source 'https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+
+inhibit_all_warnings!
+
+target 'ios-zy-hulk' do
+    
+pod 'WJCrashProtector'
+    
+pod 'ZYConfig'
+
+end
