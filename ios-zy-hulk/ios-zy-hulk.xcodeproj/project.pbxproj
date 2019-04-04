@@ -9,23 +9,78 @@
 /* Begin PBXBuildFile section */
 		528F64FD2254A63000A0095A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F64FC2254A63000A0095A /* AppDelegate.m */; };
 		528F65002254A63000A0095A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F64FF2254A63000A0095A /* ViewController.m */; };
-		528F65032254A63000A0095A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528F65012254A63000A0095A /* Main.storyboard */; };
 		528F65052254A63100A0095A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528F65042254A63100A0095A /* Assets.xcassets */; };
 		528F65082254A63100A0095A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528F65062254A63100A0095A /* LaunchScreen.storyboard */; };
 		528F650B2254A63100A0095A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F650A2254A63100A0095A /* main.m */; };
+		528F659E2254B9DF00A0095A /* NSDictionary+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F65782254B9DE00A0095A /* NSDictionary+ContainerCrashProtector.m */; };
+		528F659F2254B9DF00A0095A /* NSCache+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F657A2254B9DE00A0095A /* NSCache+ContainerCrashProtector.m */; };
+		528F65A02254B9DF00A0095A /* NSMutableArray+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F657B2254B9DE00A0095A /* NSMutableArray+ContainerCrashProtector.m */; };
+		528F65A12254B9DF00A0095A /* NSArray+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F657C2254B9DE00A0095A /* NSArray+ContainerCrashProtector.m */; };
+		528F65A22254B9DF00A0095A /* NSMutableDictionary+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F657D2254B9DE00A0095A /* NSMutableDictionary+ContainerCrashProtector.m */; };
+		528F65A32254B9DF00A0095A /* NSObject+NotificationCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F65852254B9DE00A0095A /* NSObject+NotificationCrashProtector.m */; };
+		528F65A42254B9DF00A0095A /* NSObject+SelectorCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F65892254B9DE00A0095A /* NSObject+SelectorCrashProtector.m */; };
+		528F65A52254B9DF00A0095A /* NSObject+KVOCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F658D2254B9DE00A0095A /* NSObject+KVOCrashProtector.m */; };
+		528F65A62254B9DF00A0095A /* ZYCrashProtectorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F658F2254B9DE00A0095A /* ZYCrashProtectorManager.m */; };
+		528F65A72254B9DF00A0095A /* NSMutableAttributedString+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F65912254B9DE00A0095A /* NSMutableAttributedString+ContainerCrashProtector.m */; };
+		528F65A82254B9DF00A0095A /* NSString+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F65942254B9DE00A0095A /* NSString+ContainerCrashProtector.m */; };
+		528F65A92254B9DF00A0095A /* NSMutableString+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F65972254B9DF00A0095A /* NSMutableString+ContainerCrashProtector.m */; };
+		528F65AA2254B9DF00A0095A /* NSAttributedString+ContainerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F65982254B9DF00A0095A /* NSAttributedString+ContainerCrashProtector.m */; };
+		528F65AB2254B9DF00A0095A /* WJRuntimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F659A2254B9DF00A0095A /* WJRuntimeUtils.m */; };
+		528F65AC2254B9DF00A0095A /* NSTimer+TimerCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F659C2254B9DF00A0095A /* NSTimer+TimerCrashProtector.m */; };
+		528F65B022560E3B00A0095A /* ZYCrashStuProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F65AF22560E3B00A0095A /* ZYCrashStuProxy.m */; };
+		528F65B32256121C00A0095A /* NSObject+ZYCrashProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F65B22256121C00A0095A /* NSObject+ZYCrashProtector.m */; };
+		F6D37D56FF2989B5414F623E /* libPods-ios-zy-hulk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 175D12E19D34128C21E9ACF4 /* libPods-ios-zy-hulk.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		175D12E19D34128C21E9ACF4 /* libPods-ios-zy-hulk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-zy-hulk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A7C79270D74C3DA0790565 /* Pods-ios-zy-hulk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-zy-hulk.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-zy-hulk/Pods-ios-zy-hulk.release.xcconfig"; sourceTree = "<group>"; };
+		39528F87404766717C4D34C5 /* Pods-ios-zy-hulk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-zy-hulk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-zy-hulk/Pods-ios-zy-hulk.debug.xcconfig"; sourceTree = "<group>"; };
 		528F64F82254A63000A0095A /* ios-zy-hulk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-zy-hulk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		528F64FB2254A63000A0095A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		528F64FC2254A63000A0095A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		528F64FE2254A63000A0095A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		528F64FF2254A63000A0095A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		528F65022254A63000A0095A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		528F65042254A63100A0095A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		528F65072254A63100A0095A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		528F65092254A63100A0095A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		528F650A2254A63100A0095A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		528F65782254B9DE00A0095A /* NSDictionary+ContainerCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		528F65792254B9DE00A0095A /* NSMutableDictionary+ContainerCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		528F657A2254B9DE00A0095A /* NSCache+ContainerCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCache+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		528F657B2254B9DE00A0095A /* NSMutableArray+ContainerCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		528F657C2254B9DE00A0095A /* NSArray+ContainerCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		528F657D2254B9DE00A0095A /* NSMutableDictionary+ContainerCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		528F657E2254B9DE00A0095A /* NSDictionary+ContainerCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		528F657F2254B9DE00A0095A /* NSCache+ContainerCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCache+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		528F65802254B9DE00A0095A /* NSArray+ContainerCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		528F65812254B9DE00A0095A /* NSMutableArray+ContainerCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		528F65822254B9DE00A0095A /* ZYCrashProtectorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCrashProtectorManager.h; sourceTree = "<group>"; };
+		528F65842254B9DE00A0095A /* NSObject+NotificationCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NotificationCrashProtector.h"; sourceTree = "<group>"; };
+		528F65852254B9DE00A0095A /* NSObject+NotificationCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NotificationCrashProtector.m"; sourceTree = "<group>"; };
+		528F65882254B9DE00A0095A /* NSObject+SelectorCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SelectorCrashProtector.h"; sourceTree = "<group>"; };
+		528F65892254B9DE00A0095A /* NSObject+SelectorCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SelectorCrashProtector.m"; sourceTree = "<group>"; };
+		528F658A2254B9DE00A0095A /* WJRuntimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJRuntimeUtils.h; sourceTree = "<group>"; };
+		528F658C2254B9DE00A0095A /* NSObject+KVOCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOCrashProtector.h"; sourceTree = "<group>"; };
+		528F658D2254B9DE00A0095A /* NSObject+KVOCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOCrashProtector.m"; sourceTree = "<group>"; };
+		528F658F2254B9DE00A0095A /* ZYCrashProtectorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCrashProtectorManager.m; sourceTree = "<group>"; };
+		528F65912254B9DE00A0095A /* NSMutableAttributedString+ContainerCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		528F65922254B9DE00A0095A /* NSMutableString+ContainerCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		528F65932254B9DE00A0095A /* NSAttributedString+ContainerCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		528F65942254B9DE00A0095A /* NSString+ContainerCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		528F65952254B9DE00A0095A /* NSMutableAttributedString+ContainerCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		528F65962254B9DE00A0095A /* NSString+ContainerCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ContainerCrashProtector.h"; sourceTree = "<group>"; };
+		528F65972254B9DF00A0095A /* NSMutableString+ContainerCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		528F65982254B9DF00A0095A /* NSAttributedString+ContainerCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ContainerCrashProtector.m"; sourceTree = "<group>"; };
+		528F65992254B9DF00A0095A /* ZYCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCrashProtector.h; sourceTree = "<group>"; };
+		528F659A2254B9DF00A0095A /* WJRuntimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJRuntimeUtils.m; sourceTree = "<group>"; };
+		528F659C2254B9DF00A0095A /* NSTimer+TimerCrashProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+TimerCrashProtector.m"; sourceTree = "<group>"; };
+		528F659D2254B9DF00A0095A /* NSTimer+TimerCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+TimerCrashProtector.h"; sourceTree = "<group>"; };
+		528F65AD2254C2B200A0095A /* ZYCrashProtectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCrashProtectorProtocol.h; sourceTree = "<group>"; };
+		528F65AE22560E3B00A0095A /* ZYCrashStuProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYCrashStuProxy.h; sourceTree = "<group>"; };
+		528F65AF22560E3B00A0095A /* ZYCrashStuProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCrashStuProxy.m; sourceTree = "<group>"; };
+		528F65B12256121C00A0095A /* NSObject+ZYCrashProtector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZYCrashProtector.h"; sourceTree = "<group>"; };
+		528F65B22256121C00A0095A /* NSObject+ZYCrashProtector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZYCrashProtector.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +88,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6D37D56FF2989B5414F623E /* libPods-ios-zy-hulk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44276CE12E0C51CED4397139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				175D12E19D34128C21E9ACF4 /* libPods-ios-zy-hulk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		528F64EF2254A62F00A0095A = {
 			isa = PBXGroup;
 			children = (
 				528F64FA2254A63000A0095A /* ios-zy-hulk */,
 				528F64F92254A63000A0095A /* Products */,
+				6A427915E81A79EF0EEE35E3 /* Pods */,
+				44276CE12E0C51CED4397139 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +124,173 @@
 		528F64FA2254A63000A0095A /* ios-zy-hulk */ = {
 			isa = PBXGroup;
 			children = (
+				528F65112254B69A00A0095A /* Vendors */,
+				528F65122254B6A400A0095A /* Common */,
+				528F65132254B6B000A0095A /* Modules */,
 				528F64FB2254A63000A0095A /* AppDelegate.h */,
 				528F64FC2254A63000A0095A /* AppDelegate.m */,
-				528F64FE2254A63000A0095A /* ViewController.h */,
-				528F64FF2254A63000A0095A /* ViewController.m */,
-				528F65012254A63000A0095A /* Main.storyboard */,
-				528F65042254A63100A0095A /* Assets.xcassets */,
+				528F65142254B6C600A0095A /* Resources */,
 				528F65062254A63100A0095A /* LaunchScreen.storyboard */,
 				528F65092254A63100A0095A /* Info.plist */,
-				528F650A2254A63100A0095A /* main.m */,
+				528F65042254A63100A0095A /* Assets.xcassets */,
+				528F65152254B73400A0095A /* Supporting Files */,
 			);
 			path = "ios-zy-hulk";
+			sourceTree = "<group>";
+		};
+		528F65112254B69A00A0095A /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				528F65762254B9DE00A0095A /* ZYCrashProtector */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		528F65122254B6A400A0095A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		528F65132254B6B000A0095A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				528F64FE2254A63000A0095A /* ViewController.h */,
+				528F64FF2254A63000A0095A /* ViewController.m */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		528F65142254B6C600A0095A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		528F65152254B73400A0095A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				528F650A2254A63100A0095A /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		528F65762254B9DE00A0095A /* ZYCrashProtector */ = {
+			isa = PBXGroup;
+			children = (
+				528F65772254B9DE00A0095A /* ContainerCrash */,
+				528F658B2254B9DE00A0095A /* KVOCrash */,
+				528F65832254B9DE00A0095A /* NotificationCrash */,
+				528F65902254B9DE00A0095A /* String */,
+				528F659B2254B9DF00A0095A /* TimerCrash */,
+				528F65862254B9DE00A0095A /* UIMainThreadCrash */,
+				528F65872254B9DE00A0095A /* UnrecognizedSelectorCrash */,
+				528F658E2254B9DE00A0095A /* WildPointerCrash */,
+				528F65992254B9DF00A0095A /* ZYCrashProtector.h */,
+				528F65822254B9DE00A0095A /* ZYCrashProtectorManager.h */,
+				528F658F2254B9DE00A0095A /* ZYCrashProtectorManager.m */,
+				528F65B12256121C00A0095A /* NSObject+ZYCrashProtector.h */,
+				528F65B22256121C00A0095A /* NSObject+ZYCrashProtector.m */,
+				528F65AE22560E3B00A0095A /* ZYCrashStuProxy.h */,
+				528F65AF22560E3B00A0095A /* ZYCrashStuProxy.m */,
+				528F658A2254B9DE00A0095A /* WJRuntimeUtils.h */,
+				528F659A2254B9DF00A0095A /* WJRuntimeUtils.m */,
+				528F65AD2254C2B200A0095A /* ZYCrashProtectorProtocol.h */,
+			);
+			path = ZYCrashProtector;
+			sourceTree = "<group>";
+		};
+		528F65772254B9DE00A0095A /* ContainerCrash */ = {
+			isa = PBXGroup;
+			children = (
+				528F65802254B9DE00A0095A /* NSArray+ContainerCrashProtector.h */,
+				528F657C2254B9DE00A0095A /* NSArray+ContainerCrashProtector.m */,
+				528F657F2254B9DE00A0095A /* NSCache+ContainerCrashProtector.h */,
+				528F657A2254B9DE00A0095A /* NSCache+ContainerCrashProtector.m */,
+				528F657E2254B9DE00A0095A /* NSDictionary+ContainerCrashProtector.h */,
+				528F65782254B9DE00A0095A /* NSDictionary+ContainerCrashProtector.m */,
+				528F65812254B9DE00A0095A /* NSMutableArray+ContainerCrashProtector.h */,
+				528F657B2254B9DE00A0095A /* NSMutableArray+ContainerCrashProtector.m */,
+				528F65792254B9DE00A0095A /* NSMutableDictionary+ContainerCrashProtector.h */,
+				528F657D2254B9DE00A0095A /* NSMutableDictionary+ContainerCrashProtector.m */,
+			);
+			path = ContainerCrash;
+			sourceTree = "<group>";
+		};
+		528F65832254B9DE00A0095A /* NotificationCrash */ = {
+			isa = PBXGroup;
+			children = (
+				528F65842254B9DE00A0095A /* NSObject+NotificationCrashProtector.h */,
+				528F65852254B9DE00A0095A /* NSObject+NotificationCrashProtector.m */,
+			);
+			path = NotificationCrash;
+			sourceTree = "<group>";
+		};
+		528F65862254B9DE00A0095A /* UIMainThreadCrash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIMainThreadCrash;
+			sourceTree = "<group>";
+		};
+		528F65872254B9DE00A0095A /* UnrecognizedSelectorCrash */ = {
+			isa = PBXGroup;
+			children = (
+				528F65882254B9DE00A0095A /* NSObject+SelectorCrashProtector.h */,
+				528F65892254B9DE00A0095A /* NSObject+SelectorCrashProtector.m */,
+			);
+			path = UnrecognizedSelectorCrash;
+			sourceTree = "<group>";
+		};
+		528F658B2254B9DE00A0095A /* KVOCrash */ = {
+			isa = PBXGroup;
+			children = (
+				528F658C2254B9DE00A0095A /* NSObject+KVOCrashProtector.h */,
+				528F658D2254B9DE00A0095A /* NSObject+KVOCrashProtector.m */,
+			);
+			path = KVOCrash;
+			sourceTree = "<group>";
+		};
+		528F658E2254B9DE00A0095A /* WildPointerCrash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WildPointerCrash;
+			sourceTree = "<group>";
+		};
+		528F65902254B9DE00A0095A /* String */ = {
+			isa = PBXGroup;
+			children = (
+				528F65932254B9DE00A0095A /* NSAttributedString+ContainerCrashProtector.h */,
+				528F65982254B9DF00A0095A /* NSAttributedString+ContainerCrashProtector.m */,
+				528F65952254B9DE00A0095A /* NSMutableAttributedString+ContainerCrashProtector.h */,
+				528F65912254B9DE00A0095A /* NSMutableAttributedString+ContainerCrashProtector.m */,
+				528F65922254B9DE00A0095A /* NSMutableString+ContainerCrashProtector.h */,
+				528F65972254B9DF00A0095A /* NSMutableString+ContainerCrashProtector.m */,
+				528F65962254B9DE00A0095A /* NSString+ContainerCrashProtector.h */,
+				528F65942254B9DE00A0095A /* NSString+ContainerCrashProtector.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		528F659B2254B9DF00A0095A /* TimerCrash */ = {
+			isa = PBXGroup;
+			children = (
+				528F659C2254B9DF00A0095A /* NSTimer+TimerCrashProtector.m */,
+				528F659D2254B9DF00A0095A /* NSTimer+TimerCrashProtector.h */,
+			);
+			path = TimerCrash;
+			sourceTree = "<group>";
+		};
+		6A427915E81A79EF0EEE35E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39528F87404766717C4D34C5 /* Pods-ios-zy-hulk.debug.xcconfig */,
+				30A7C79270D74C3DA0790565 /* Pods-ios-zy-hulk.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 528F650E2254A63100A0095A /* Build configuration list for PBXNativeTarget "ios-zy-hulk" */;
 			buildPhases = (
+				F9DBB6F64422EFFD1CE72E49 /* [CP] Check Pods Manifest.lock */,
 				528F64F42254A63000A0095A /* Sources */,
 				528F64F52254A63000A0095A /* Frameworks */,
 				528F64F62254A63000A0095A /* Resources */,
+				F8126AFDD7583E8CF0ED994C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,34 +354,89 @@
 			files = (
 				528F65082254A63100A0095A /* LaunchScreen.storyboard in Resources */,
 				528F65052254A63100A0095A /* Assets.xcassets in Resources */,
-				528F65032254A63000A0095A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8126AFDD7583E8CF0ED994C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ios-zy-hulk/Pods-ios-zy-hulk-resources.sh",
+				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-zy-hulk/Pods-ios-zy-hulk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DBB6F64422EFFD1CE72E49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-zy-hulk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		528F64F42254A63000A0095A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528F65A02254B9DF00A0095A /* NSMutableArray+ContainerCrashProtector.m in Sources */,
+				528F65A42254B9DF00A0095A /* NSObject+SelectorCrashProtector.m in Sources */,
 				528F65002254A63000A0095A /* ViewController.m in Sources */,
+				528F65A52254B9DF00A0095A /* NSObject+KVOCrashProtector.m in Sources */,
+				528F65A22254B9DF00A0095A /* NSMutableDictionary+ContainerCrashProtector.m in Sources */,
+				528F65B022560E3B00A0095A /* ZYCrashStuProxy.m in Sources */,
+				528F65A32254B9DF00A0095A /* NSObject+NotificationCrashProtector.m in Sources */,
+				528F65B32256121C00A0095A /* NSObject+ZYCrashProtector.m in Sources */,
+				528F65A82254B9DF00A0095A /* NSString+ContainerCrashProtector.m in Sources */,
+				528F65A12254B9DF00A0095A /* NSArray+ContainerCrashProtector.m in Sources */,
+				528F65AA2254B9DF00A0095A /* NSAttributedString+ContainerCrashProtector.m in Sources */,
+				528F65AC2254B9DF00A0095A /* NSTimer+TimerCrashProtector.m in Sources */,
+				528F65A92254B9DF00A0095A /* NSMutableString+ContainerCrashProtector.m in Sources */,
+				528F659E2254B9DF00A0095A /* NSDictionary+ContainerCrashProtector.m in Sources */,
 				528F650B2254A63100A0095A /* main.m in Sources */,
+				528F659F2254B9DF00A0095A /* NSCache+ContainerCrashProtector.m in Sources */,
+				528F65A72254B9DF00A0095A /* NSMutableAttributedString+ContainerCrashProtector.m in Sources */,
 				528F64FD2254A63000A0095A /* AppDelegate.m in Sources */,
+				528F65AB2254B9DF00A0095A /* WJRuntimeUtils.m in Sources */,
+				528F65A62254B9DF00A0095A /* ZYCrashProtectorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		528F65012254A63000A0095A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				528F65022254A63000A0095A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		528F65062254A63100A0095A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,8 +562,10 @@
 		};
 		528F650F2254A63100A0095A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39528F87404766717C4D34C5 /* Pods-ios-zy-hulk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FD6WBHS2LJ;
 				INFOPLIST_FILE = "ios-zy-hulk/Info.plist";
@@ -300,8 +581,10 @@
 		};
 		528F65102254A63100A0095A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A7C79270D74C3DA0790565 /* Pods-ios-zy-hulk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FD6WBHS2LJ;
 				INFOPLIST_FILE = "ios-zy-hulk/Info.plist";
