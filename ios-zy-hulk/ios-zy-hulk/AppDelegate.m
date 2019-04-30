@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "ZYCrashProtectorManager.h"
+#import "ZYCrashProtector.h"
 
 @interface AppDelegate ()
 
@@ -23,12 +23,25 @@
 #endif
     [ZYCrashProtectorManager enabledCrashProtector:ZYCrashProtectorTypeAll];//开启保护
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dealwithCrashMessage:) name:ZYCrashProtectorNotification object:nil];
+    
     self.window =[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window setBackgroundColor:[UIColor whiteColor]];
     [self.window setRootViewController:[[ViewController alloc] init]];
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+- (void)dealwithCrashMessage:(NSNotification *)note {
+    //异常拦截并且通过bugly上报
+    
+    NSDictionary *info = note.userInfo;
+    NSString *errorReason = [NSString stringWithFormat:@"【ErrorReason】%@========【ErrorPlace】%@========【DefaultToDo】%@========【ErrorName】%@", info[@"errorReason"], info[@"errorPlace"], info[@"defaultToDo"], info[@"errorName"]];
+//    NSArray *callStack = info[@"callStackSymbols"];
+    
+    NSLog(@"%@",errorReason);
+}
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -1,6 +1,7 @@
 source 'https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/Eyshen/ios-zy-framework-cocoapods-specs.git'
+source 'https://gitlab.zmaxis.com/ios/zmrepos.git'
 
 platform :ios, '8.0'
 
@@ -13,5 +14,54 @@ pod 'QMUIKit' , '2.9.3'
 pod 'ZYConfig'
 
 pod 'ZYJSON'
+
+pod 'ZYCrashProtector', '0.1.3'
+
+pod 'ZYLoggingAPI'
+
+#组件库
+pod 'WJNetworkContextService'
+
+pod 'WJAppContext'
+
+pod 'WJDeviceID'
+
+#pod 'WJPlayerKit'
+
+#pod 'WJPlayerCacheVI'
+
+#pod 'WJHttpEngineAF'
+
+pod 'WJCacheAPI'
+
+pod 'WJHttpEngineAPI'
+
+pod 'WJRouter'
+
+pod 'WJCacheKeychain'
+
+pod 'WJHttpServiceAF'
+
+#pod 'WJSession'
+
+#pod 'WJCacheUserDefaults'
+
+pod 'WJHttpServiceAPI'
+
+pod 'WJUIRoutable'
+
+pod 'WJCommon'
+
+pod 'WJJSON'
+
+pod 'WJWebViewJavascriptBridge'
+
+pod 'WJConfig'
+
+pod 'WJLoggingAPI'
+
+#pod 'WJCoreDataDA'
+
+pod 'WJNetworkContextService'
 
 end
