@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ZYHttpEngineAPI</key>
+	<dict>
+		<key>timeoutDuration</key>
+		<integer>30</integer>
+		<key>defaultEngineName</key>
+		<string>AFZYHttpEngine</string>
+		<key>filters</key>
+		<array>
+			<string>UserInvalidHttpFilter</string>
+		</array>
+	</dict>
+</dict>
+</plist>

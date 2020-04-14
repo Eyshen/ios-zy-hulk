@@ -27,14 +27,17 @@
     refName.textColor = [UIColor lightGrayColor];
     [self.view addSubview:refName];
     _refNameLabel = refName;
+    
+    [SMCallTrace stop];
+    [SMCallTrace save];
 //    [self performSelector:@selector(protectorAPP) withObject:self afterDelay:10];
-    [self testMethod];
-    NSDictionary *dic = @{@"1":@"1",
-                          @"2":@"2",
-                          @"3":@"3",
-                          @"4":@"4",
-                          };
-    NSLog(@"字典:%d",(int)dic.count);
+//    [self testMethod];
+//    NSDictionary *dic = @{@"1":@"1",
+//                          @"2":@"2",
+//                          @"3":@"3",
+//                          @"4":@"4",
+//                          };
+//    NSLog(@"字典:%d",(int)dic.count);
     
 }
 

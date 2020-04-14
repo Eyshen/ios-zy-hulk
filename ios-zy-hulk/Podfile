@@ -9,7 +9,7 @@ inhibit_all_warnings!
 
 target 'ios-zy-hulk' do
 
-pod 'QMUIKit' , '2.9.3'
+pod 'QMUIKit' 
     
 pod 'ZYConfig'
 
@@ -19,12 +19,26 @@ pod 'ZYCrashProtector', '0.1.3'
 
 pod 'ZYLoggingAPI'
 
+pod 'YTKNetwork'
+
+pod 'AvoidCrash'
+
+pod 'MJRefresh'
+
+pod 'Masonry'
+
+pod 'FMDB'
+
+pod 'ReactiveCocoa', '=2.3'
+
+pod 'ZYLoggingCocoaLumberjack'
+
 #组件库
-pod 'WJNetworkContextService'
+#pod 'WJNetworkContextService'
 
-pod 'WJAppContext'
+#pod 'WJAppContext'
 
-pod 'WJDeviceID'
+#pod 'WJDeviceID'
 
 #pod 'WJPlayerKit'
 
@@ -32,36 +46,36 @@ pod 'WJDeviceID'
 
 #pod 'WJHttpEngineAF'
 
-pod 'WJCacheAPI'
+#pod 'WJCacheAPI'
 
-pod 'WJHttpEngineAPI'
+#pod 'WJHttpEngineAPI'
 
-pod 'WJRouter'
+#pod 'WJRouter'
 
-pod 'WJCacheKeychain'
+#pod 'WJCacheKeychain'
 
-pod 'WJHttpServiceAF'
+#pod 'WJHttpServiceAF'
 
 #pod 'WJSession'
 
 #pod 'WJCacheUserDefaults'
 
-pod 'WJHttpServiceAPI'
+#pod 'WJHttpServiceAPI'
 
-pod 'WJUIRoutable'
+#pod 'WJUIRoutable'
 
-pod 'WJCommon'
+#pod 'WJCommon'
 
-pod 'WJJSON'
+#pod 'WJJSON'
 
-pod 'WJWebViewJavascriptBridge'
+#pod 'WJWebViewJavascriptBridge'
 
-pod 'WJConfig'
+#pod 'WJConfig'
 
-pod 'WJLoggingAPI'
+#pod 'WJLoggingAPI'
 
 #pod 'WJCoreDataDA'
 
-pod 'WJNetworkContextService'
+#pod 'WJNetworkContextService'
 
 end

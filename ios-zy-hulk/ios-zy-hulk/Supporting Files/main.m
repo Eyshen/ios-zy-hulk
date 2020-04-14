@@ -11,6 +11,9 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+#ifdef DEBUG
+        NSLog(@"启动时间Main：%f",CFAbsoluteTimeGetCurrent());
+#endif
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
