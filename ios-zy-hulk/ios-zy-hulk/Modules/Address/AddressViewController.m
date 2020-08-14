@@ -46,6 +46,13 @@
     [self.view addSubview:jumpBtn2];
     jumpBtn2.tag = 12;
     
+    UILabel * alabel = [[UILabel alloc]initWithFrame:CGRectMake(30, 80, 214, 600)];
+    alabel.backgroundColor = [UIColor yellowColor];
+    alabel.textAlignment = NSTextAlignmentCenter;
+    alabel.center = self.view.center;
+    alabel.font = [UIFont fontWithName:@"PingFangSC-Medium" size:16];
+    alabel.text = @"学习强国";
+    [self.view addSubview:alabel];
 }
 
 -(void)jumpClick:(UIButton *)sender{

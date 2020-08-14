@@ -76,12 +76,12 @@
     
     
     
-    ZYPostRequest * request = [[ZYPostRequest alloc] initWithRequestUrl:@"students-api/api/index/pad/indexInfo" argument:@{}];
-    [request startWithCompletionBlockWithSuccess:^(__kindof ZYBaseRequest *request, NSDictionary *result, BOOL success) {
-        NSLog(@"loginResponse Success:%@",result);
-    } failure:^(__kindof ZYBaseRequest *request, NSString *errorInfo) {
-        NSLog(@"loginResponse Success:%@",errorInfo);
-    }];
+//    ZYPostRequest * request = [[ZYPostRequest alloc] initWithRequestUrl:@"students-api/api/index/pad/indexInfo" argument:@{}];
+//    [request startWithCompletionBlockWithSuccess:^(__kindof ZYBaseRequest *request, NSDictionary *result, BOOL success) {
+//        NSLog(@"loginResponse Success:%@",result);
+//    } failure:^(__kindof ZYBaseRequest *request, NSString *errorInfo) {
+//        NSLog(@"loginResponse Success:%@",errorInfo);
+//    }];
 }
 
 -(void)setupNavigationItems{

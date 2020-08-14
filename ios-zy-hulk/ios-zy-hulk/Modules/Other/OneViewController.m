@@ -45,6 +45,8 @@
     [jumpBtn2 setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
     [self.view addSubview:jumpBtn2];
     jumpBtn2.tag = 12;
+    
+    
 }
 -(void)jumpClick:(UIButton *)sender{
     if(sender.tag == 10){

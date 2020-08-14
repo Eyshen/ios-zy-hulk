@@ -1011,6 +1011,7 @@
 				DEVELOPMENT_TEAM = KZR83DY963;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ios-zy-hulk/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = "ios-zy-hulk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1030,6 +1031,7 @@
 				DEVELOPMENT_TEAM = KZR83DY963;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ios-zy-hulk/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = "ios-zy-hulk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

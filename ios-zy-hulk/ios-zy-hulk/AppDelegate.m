@@ -20,10 +20,9 @@
 #import "FindViewController.h"
 #import "MyViewController.h"
 
-#import "YTKNetwork.h"
-
-#import "ZMAppAnalyticsDataStorage.h"
-#import "ZMMobClick.h"
+//#import "YTKNetwork.h"
+//#import "ZMAppAnalyticsDataStorage.h"
+//#import "ZMMobClick.h"
 #import "CocoaLumberjack.h"
 #import <AdSupport/ASIdentifierManager.h>
 
@@ -42,10 +41,12 @@
     [ZYCrashProtectorManager enabledCrashProtector:ZYCrashProtectorTypeAll];//开启保护
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dealwithCrashMessage:) name:ZYCrashProtectorNotification object:nil];
+    
+    //DDLlog配置
     [self logConfig];
     
     //配置事件统计
-    [ZMMobClick registerAppConfig:[ZMAnalyticsConfig instanceWithUserId:@"123456" andAppId:@"666" andAppCode:@"686" policy:ZMReportPolicyRealTime] dataStoreage:[ZMAppAnalyticsDataStorage sharedInstance]];
+//    [ZMMobClick registerAppConfig:[ZMAnalyticsConfig instanceWithUserId:@"123456" andAppId:@"666" andAppCode:@"686" policy:ZMReportPolicyRealTime] dataStoreage:[ZMAppAnalyticsDataStorage sharedInstance]];
     
     //QD自定义的全局样式渲染
     [QDCommonUI renderGlobalAppearances];
@@ -55,8 +56,8 @@
     });
     
     //域名配置
-    YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
-    config.baseUrl = @"https://appapi-test.zmlearn.com";
+//    YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
+//    config.baseUrl = @"https://appapi-test.zmlearn.com";
     
 //    config.securityPolicy.allowInvalidCertificates = YES;
 //
