@@ -28,8 +28,8 @@
     [self.view addSubview:refName];
     _refNameLabel = refName;
     
-    [SMCallTrace stop];
-    [SMCallTrace save];
+//    [SMCallTrace stop];
+//    [SMCallTrace save];
 //    [self performSelector:@selector(protectorAPP) withObject:self afterDelay:10];
 //    [self testMethod];
 //    NSDictionary *dic = @{@"1":@"1",

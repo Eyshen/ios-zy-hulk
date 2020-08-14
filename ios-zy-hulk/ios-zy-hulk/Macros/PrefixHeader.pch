@@ -25,8 +25,8 @@
 #import "QDCommonUI.h"
 #import "QDUIHelper.h"
 #import "QDThemeManager.h"
-#import "SMCallTrace.h"
-#import "ZMMobClick.h"
+//#import "SMCallTrace.h"
+//#import "ZMMobClick.h"
 #import "ZYLoggingMacros.h"
 #import "ZYLogger.h"
 #endif

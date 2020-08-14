@@ -1,7 +1,7 @@
-source 'https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git'
+#source 'https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/Eyshen/ios-zy-framework-cocoapods-specs.git'
-source 'https://gitlab.zmaxis.com/ios/zmrepos.git'
+#source 'https://gitlab.zmaxis.com/ios/zmrepos.git'
 
 platform :ios, '8.0'
 
@@ -9,19 +9,13 @@ inhibit_all_warnings!
 
 target 'ios-zy-hulk' do
 
-pod 'QMUIKit' 
+pod 'QMUIKit'
     
 pod 'ZYConfig'
 
 pod 'ZYJSON'
 
-pod 'ZYCrashProtector', '0.1.3'
-
 pod 'ZYLoggingAPI'
-
-pod 'YTKNetwork'
-
-pod 'AvoidCrash'
 
 pod 'MJRefresh'
 
@@ -29,9 +23,15 @@ pod 'Masonry'
 
 pod 'FMDB'
 
-pod 'ReactiveCocoa', '=2.3'
-
 pod 'ZYLoggingCocoaLumberjack'
+
+#pod 'ReactiveCocoa', '=2.3'
+
+#pod 'ZYCrashProtector', '0.1.3'
+
+#pod 'YTKNetwork'
+
+#pod 'AvoidCrash'
 
 #组件库
 #pod 'WJNetworkContextService'

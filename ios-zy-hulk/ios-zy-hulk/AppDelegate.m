@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "ZYCrashProtector.h"
+//#import "ZYCrashProtector.h"
 
 #import "QDUIHelper.h"
 #import "QDCommonUI.h"
@@ -38,9 +38,9 @@
 #ifdef DEBUG
     NSLog(@"启动时间App delegate：%f",CFAbsoluteTimeGetCurrent());
 #endif
-    [ZYCrashProtectorManager enabledCrashProtector:ZYCrashProtectorTypeAll];//开启保护
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dealwithCrashMessage:) name:ZYCrashProtectorNotification object:nil];
+//    [ZYCrashProtectorManager enabledCrashProtector:ZYCrashProtectorTypeAll];//开启保护
+//
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dealwithCrashMessage:) name:ZYCrashProtectorNotification object:nil];
     
     //DDLlog配置
     [self logConfig];
