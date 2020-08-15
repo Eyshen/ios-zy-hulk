@@ -57,7 +57,7 @@
     
     //域名配置
 //    YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
-//    config.baseUrl = @"https://appapi-test.zmlearn.com";
+//    config.baseUrl = @"https://www.baidu.com";
     
 //    config.securityPolicy.allowInvalidCertificates = YES;
 //

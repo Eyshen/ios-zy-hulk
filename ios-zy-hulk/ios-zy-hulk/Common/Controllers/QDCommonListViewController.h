@@ -11,6 +11,7 @@
 @interface QDCommonListViewController : QDCommonTableViewController
 
 @property(nonatomic, strong) NSArray<NSString *> *dataSource;
+
 @property(nonatomic, strong) QMUIOrderedDictionary<NSString *, NSString *> *dataSourceWithDetailText;
 
 @end
@@ -19,6 +20,7 @@
 
 // 子类继承，可以不调super
 - (void)initDataSource;
+
 - (void)didSelectCellWithTitle:(NSString *)title;
 
 @end
